@@ -1,0 +1,29 @@
+/* Reusable button class */
+.button-link {
+  color: white;
+  background-color: #007BFF;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Parent and child example */
+.parent {
+  background-color: #fef3c7;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.parent .child {
+  color: #b91c1c;
+  font-family: 'Georgia', serif;
+  font-weight: 600;
+}
+
+/* Using !important */
+a {
+  border: 1px solid #000 !important;
+}

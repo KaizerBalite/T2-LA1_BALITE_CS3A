@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Basics</title>
+
+  <!-- Internal CSS -->
+  <style>
+    /* Tag selector for all anchor tags */
+    a {
+      background-color: #f0f0f0;
+      padding: 5px;
+      text-decoration: none;
+    }
+
+    /* ID selector for unique element */
+    #special-message {
+      color: red;
+      font-size: 1.5em;
+    }
+  </style>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="special-message">Welcome to My CSS Practice Page</h1>
+  </header>
+
+  <main>
+    <p>Here are some useful links:</p>
+
+    <!-- Inline CSS -->
+    <a href="https://www.google.com" style="color: green;">Google</a><br><br><br>
+
+    <!-- Internal styling will apply here -->
+    <a href="https://www.facebook.com">Facebook</a><br><br><br>
+
+    <!-- External class styling -->
+    <a href="https://www.youtube.com" class="button-link">YouTube</a><br><br><br>
+
+    <!-- Parent-child example -->
+    <div class="parent">
+      <p class="child">I am a child paragraph inside a styled parent.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CSS Basics Demo</p>
+  </footer>
+
+</body>
+</html>
